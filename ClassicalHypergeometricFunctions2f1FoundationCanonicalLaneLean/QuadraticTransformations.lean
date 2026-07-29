@@ -1,0 +1,15 @@
+import canonicalLaneMathlib.AdmissibleClass
+import HautevilleHouse.ClassicalHypergeometricFunctions2f1FoundationCanonicalLaneLean.HypergeometricSeriesDefinition
+
+namespace HautevilleHouse
+namespace ClassicalHypergeometricFunctions2f1FoundationCanonicalLaneLean
+
+structure QuadraticTransformationPackage where
+  transformation : Prop
+  proof : transformation
+
+def QuadraticTransformationClosed (P : QuadraticTransformationPackage) : Prop :=
+  P.transformation
+
+end ClassicalHypergeometricFunctions2f1FoundationCanonicalLaneLean
+end HautevilleHouse
